@@ -1,0 +1,19 @@
+h1{
+    text-transform: uppercase;
+   color: #b4cde9;
+    text-align: center;
+    font-size: 2.5rem;
+    text-decoration: wavy;
+}
+body{
+    background-color: rgb(23, 2, 36);
+    border-color: black;
+    text-align: center
+    ;
+    touch-action: auto;
+    text-decoration-style: double;
+
+}
+section{
+    text-decoration: double;
+}
