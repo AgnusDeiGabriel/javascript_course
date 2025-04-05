@@ -1,19 +1,56 @@
-h1{
-    text-transform: uppercase;
-   color: #b4cde9;
-    text-align: center;
-    font-size: 2.5rem;
-    text-decoration: wavy;
-}
-body{
-    background-color: rgb(23, 2, 36);
-    border-color: black;
-    text-align: center
-    ;
-    touch-action: auto;
-    text-decoration-style: double;
+
+
+body {
+    font-family: vernada;
+    background: rgba(205, 238, 15, 0.815);
+    background: url(./20250306_165818.jpg) center/cover;
+    min-height: 100vh;
 
 }
-section{
-    text-decoration: double;
+
+
+h1{
+    text-transform: uppercase;
+   color: #d0d9df;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 3px #0000007a;
+    color: rgba(194, 189, 216, 0.952);
+    text-decoration: underline;
+
+}
+main{
+    height: 500px;
+    width: 90%;
+    background: #d0d9dfe1;
+    margin: 0 auto;
+    border: 2px solid rgba(15, 193, 238, 0.815);
+    border-radius: 20px 0 20px 0;
+    box-shadow: 0 0 0 #0bcab4
+    ;
+
+}
+
+.flexbox {
+    border: 2px solid rgb(12, 13, 14);
+    border-radius: 20px 0 20px 20px;
+}
+.flexbox ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox li{
+    list-style: none;
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    background: #0bcab4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
 }
